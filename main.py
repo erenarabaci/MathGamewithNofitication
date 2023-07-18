@@ -7,7 +7,7 @@ result= 0
 x = random.randint(0,4)
 
 
-#1 toplama 2 çıkarma 3 çarpma 4 bölme işemi olucak
+### 1 toplama 2 çıkarma 3 çarpma 4 bölme işemi olucak
 
 if x == 1 :
     result= a+b
@@ -23,7 +23,7 @@ elif x == 4 :
     print(f"{a}/{b}:")
 
 userinput=int(input("İşlemnin sonucunu giriniz:"))
-
+### bildirim yollama kodları
 if userinput == result:
     notification.notify(title="Doğru!", message="Tebrikler doğru bildiniz!", app_icon=None, timeout=10)
 else :
